@@ -1,0 +1,7 @@
+.CardInput {
+  background: red;
+  width: 350px;
+  height: 400px;
+  position: fixed;
+  z-index: 1;
+}

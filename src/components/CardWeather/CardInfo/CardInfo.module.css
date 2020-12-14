@@ -1,0 +1,19 @@
+.CardWeather {
+  padding: 0 15px 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  height: 250px;
+  background-color: rgb(38, 38, 179);
+  z-index: 2;
+  position: relative;
+}
+
+.LeftNav {
+  display: flex;
+  flex-direction: column;
+}
+.RightNav {
+  display: flex;
+  flex-direction: column;
+}

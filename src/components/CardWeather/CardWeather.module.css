@@ -1,17 +1,7 @@
 .CardWeather {
-  padding: 0 15px 15px 15px;
-  display: flex;
-  justify-content: space-between;
-  width: 500px;
-  height: 400px;
-  border: 1px solid brown;
-}
-
-.LeftNav {
-  display: flex;
-  flex-direction: column;
-}
-.RightNav {
-  display: flex;
-  flex-direction: column;
+    height: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-end;
 }

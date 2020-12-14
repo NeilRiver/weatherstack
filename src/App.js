@@ -10,7 +10,7 @@ function App() {
   const [state, setWeather] = useState(0);
 
   useEffect(async () => {
-    const fetchData = await fetch(`${url}/current?${API}&query=Minsk`);
+    const fetchData = await fetch(`${url}/current?${API}&query=Grodno`);
     const response = await fetchData.json();
     setWeather(response);
   }, []);
